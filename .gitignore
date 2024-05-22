@@ -32,3 +32,5 @@ SQLiteCpp_example1
 SQLiteCpp_tests
 
 !FindSQLiteCpp.cmake
+/bin-int/Debug-windows-x86_64/SQLite-CPP
+/bin/Debug-windows-x86_64/SQLite-CPP
