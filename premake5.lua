@@ -37,7 +37,7 @@ project "SQLite-CPP"
     
     filter "system:macosx"
 		cppdialect "c++20"
-		staticruntime "On"
+		staticruntime "off"
     
         links{
             "pthread",
