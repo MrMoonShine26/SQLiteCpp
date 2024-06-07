@@ -15,7 +15,7 @@ project "SQLite-CPP"
 	includedirs
 	{
 		"include",
-        "sqlite3"
+        	"sqlite3"
 	}
 
 	defines
@@ -26,13 +26,13 @@ project "SQLite-CPP"
 
 	filter "system:windows"
 		systemversion "latest"
-		cppdialect "C++17"
+		cppdialect "C++20"
 		staticruntime "off"
 
 	filter "system:linux"
 		pic "On"
 		systemversion "latest"
-		cppdialect "C++17"
+		cppdialect "C++20"
 		staticruntime "off"
     
     filter "system:macosx"
